@@ -92,13 +92,15 @@ python train.py --dataset AID --batch_size 32 --epochs 500
 | HC-Mamba-B                  | 95.34           | 92.86    | 95.25     |
 | **Ours (AFM-Net)**          | **96.81**       | **93.71**| **95.52** |
 
+
+
+
+<!-- 
 ##  🎯Model Visualizations (CAM)
 These figures visualize where AFM-Net focuses on each scene using Class Activation Maps (CAM).
 
-<!-- 
 ## 📖 Citation 
 If you use AFM-Net in your research, please cite our paper:
-```bibtex
 @article{tang2025afmnet,
   title={AFM-Net: Advanced Fusion Model Network for Remote Sensing Scene Classification},
   author={Tang, Yuanhao and Hu, Zhengpei and Xing, Junliang and Zhang, Chengkun and Huang, Jianqiang},
@@ -106,7 +108,7 @@ If you use AFM-Net in your research, please cite our paper:
   year={2025}
 }
 -->
-```
+
 
 
 
