@@ -101,19 +101,21 @@ python train.py --dataset AID --batch_size 32 --epochs 500
 
 
 
-<!-- 
-##  🎯Model Visualizations (CAM)
-These figures visualize where AFM-Net focuses on each scene using Class Activation Maps (CAM).
+
 
 ## 📖 Citation 
 If you use AFM-Net in your research, please cite our paper:
-@article{tang2025afmnet,
-  title={AFM-Net: Advanced Fusion Model Network for Remote Sensing Scene Classification},
-  author={Tang, Yuanhao and Hu, Zhengpei and Xing, Junliang and Zhang, Chengkun and Huang, Jianqiang},
-  journal={arXiv preprint arXiv:XXXX.XXXXX},
-  year={2025}
+@misc{tang2025afmnetadvancedfusinghierarchical,
+      title={AFM-Net: Advanced Fusing Hierarchical CNN Visual Priors with Global Sequence Modeling for Remote Sensing Image Scene Classification}, 
+      author={Yuanhao Tang and Xuechao Zou and Zhengpei Hu and Junliang Xing and Chengkun Zhang and Jianqiang Huang},
+      year={2025},
+      eprint={2510.27155},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2510.27155}, 
 }
--->
+
+
 
 
 
