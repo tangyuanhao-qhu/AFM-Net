@@ -103,20 +103,6 @@ python train.py --dataset AID --batch_size 32 --epochs 500
 
 
 
-## 📖 Citation 
-If you use AFM-Net in your research, please cite our paper:
- ```bash
-@misc{tang2025afmnetadvancedfusinghierarchical,
-      title={AFM-Net: Advanced Fusing Hierarchical CNN Visual Priors with Global Sequence Modeling for Remote Sensing Image Scene Classification}, 
-      author={Yuanhao Tang and Xuechao Zou and Zhengpei Hu and Junliang Xing and Chengkun Zhang and Jianqiang Huang},
-      year={2025},
-      eprint={2510.27155},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2510.27155}, 
-}
- ```
-
 
 
 
