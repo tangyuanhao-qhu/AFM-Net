@@ -1,4 +1,4 @@
-# AFM-Net: Advanced Fusion Model Network for Remote Sensing Image Scene Classification
+# AFM-Net:Hierarchical Fusion of Local and Global Visual Priors with Mixture-of-Experts for Remote Sensing Image Scene Classification
 <p align="center">
   <img src="docs/logo1.png" alt="AFM-Net Logo" width="600"/>
 </p>
@@ -21,11 +21,10 @@
 
 ##  🔍 Introduction 
 
-Remote sensing scene classification of high-resolution images remains a challenging task due to the complex spatial structures and multi-scale characteristics of objects.
-We propose AFM-Net (Advanced Fusion Model Network), a dual-branch framework that:
-* ✅ Combines CNN backbone (local texture & hierarchical priors) with Vision Mamba (global sequence modeling).
-* ✅ Employs a multi-scale fusion strategy for cross-branch feature integration.
-* ✅ Uses a Mixture-of-Experts (MoE) classifier for adaptive feature aggregation.
+Remote sensing scene classification of high-resolution images remains a challenging task due to complex spatial structures and high intra-class variance. We propose AFM-Net, a parallel heterogeneous framework that:
+✅ Synergizes Local and Global Visual Priors: Coupling CNN-based local texture extraction with Mamba-based global sequence modeling to ensure robust co-representation.
+✅ Hierarchical Fusion Strategy: Employs a hierarchical fusion module to densely integrate heterogeneous features across different semantic levels.
+✅ Adaptive MoE Classifier: Uses a Mixture-of-Experts (MoE) head to dynamically select optimal features, balancing performance with efficiency.
 
 Extensive experiments show AFM-Net achieves state-of-the-art performance on AID, NWPU-RESISC45, and UC Merced datasets.
 
@@ -34,7 +33,7 @@ Extensive experiments show AFM-Net achieves state-of-the-art performance on AID,
 ##  📐 Model Architecture
 
 <p align="center">
-  <img src="docs/fig1.png" alt="AFM-Net Architecture" width="700"/>
+  <img src="docs/fig1.pdf" alt="AFM-Net Architecture" width="700"/>
 </p>
 
 ## ⚙️Installation 
