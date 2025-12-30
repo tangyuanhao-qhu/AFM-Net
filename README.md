@@ -1,4 +1,4 @@
-# AFM-Net:Hierarchical Fusion of Local and Global Visual Priors with Mixture-of-Experts for Remote Sensing Image Scene Classification
+# Hierarchical Fusion of Local and Global Visual Features with Mixture-of-Experts for Remote Sensing Image Scene Classification
 <p align="center">
   <img src="docs/logo1.png" alt="AFM-Net Logo" width="600"/>
 </p>
