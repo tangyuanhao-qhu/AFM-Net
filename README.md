@@ -22,7 +22,7 @@
 ##  🔍 Introduction 
 
 Remote sensing scene classification of high-resolution images remains a challenging task due to complex spatial structures and high intra-class variance. We propose AFM-Net, a parallel heterogeneous framework that:
-- ✅ **Synergizes Local and Global Visual Features**: Coupling CNN-based local texture extraction with Mamba-based global sequence modeling to ensure robust co-representation.
+- ✅ **Synergizes Local and Global Visual Encoder**: Coupling CNN-based local texture extraction with Mamba-based global sequence modeling to ensure robust co-representation.
 - ✅ **Hierarchical Fusion Strategy**: Employs a hierarchical fusion module to densely integrate heterogeneous features across different semantic levels.
 - ✅ **Adaptive MoE Classifier**: Uses a Mixture-of-Experts (MoE) head to dynamically select optimal features, balancing performance with efficiency.
 
@@ -98,7 +98,7 @@ python train.py --dataset AID --batch_size 32 --epochs 500
 | HC-Mamba-T                  | 94.76           | 91.42    | 94.87     |
 | HC-Mamba-S                  | 95.08           | 91.95    | 95.08     |
 | HC-Mamba-B                  | 95.34           | 92.86    | 95.25     |
-| **Ours (AFM-Net)**          | **96.81**       | **93.71**| **95.52** |
+| **Ours**                    | **96.81**       | **93.71**| **95.52** |
 
 
 
