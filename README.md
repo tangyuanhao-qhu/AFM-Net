@@ -86,6 +86,7 @@ python train.py --dataset AID --batch_size 32 --epochs 500
 | Swin-T                      | 88.88           | 87.35    | 89.72     |
 | Swin-S                      | 89.72           | 87.03    | 89.28     |
 | Swin-B                      | 91.66           | 86.37    | 89.41     |
+| CMTFNet                     | 94.64           | 93.01    | 94.31     |
 | **Mamba-based Models**      |                 |          |           |
 | ViMamba-T                   | 92.81           | 91.10    | 93.94     |
 | VisionMamba-T               | 83.06           | 78.68    | 88.97     |
