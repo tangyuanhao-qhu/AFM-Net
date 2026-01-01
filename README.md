@@ -13,19 +13,19 @@
     <img src="https://img.shields.io/badge/arXiv-2510.27155-b31b1b.svg" alt="arXiv">
   </a>
   <a href="https://huggingface.co/Yuannnn-tyh/AFM-Net/">
-    <img src="https://img.shields.io/badge/🤗%20Hugging%20Face-AFM--Net-yellow" alt="Hugging Face">
+    <img src="https://img.shields.io/badge/🤗%20Hugging%20Face-yellow" alt="Hugging Face">
   </a>
 
 </p>
 
 ##  🔍 Introduction 
 
-Remote sensing scene classification of high-resolution images remains a challenging task due to complex spatial structures and high intra-class variance. We propose AFM-Net, a parallel heterogeneous framework that:
+Remote sensing scene classification of high-resolution images remains a challenging task due to complex spatial structures and high intra-class variance. We propose a parallel heterogeneous framework that:
 - ✅ **Synergizes Local and Global Visual Encoder**: Coupling CNN-based local texture extraction with Mamba-based global sequence modeling to ensure robust co-representation.
 - ✅ **Hierarchical Fusion Strategy**: Employs a hierarchical fusion module to densely integrate heterogeneous features across different semantic levels.
 - ✅ **Adaptive MoE Classifier**: Uses a Mixture-of-Experts (MoE) head to dynamically select optimal features, balancing performance with efficiency.
 
-Extensive experiments show AFM-Net achieves state-of-the-art performance on AID, NWPU-RESISC45, and UC Merced datasets.
+Extensive experiments show our model achieves state-of-the-art performance on AID, NWPU-RESISC45, and UC Merced datasets.
 
 ---
 
